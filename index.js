@@ -105,11 +105,11 @@ function produceStar(layer, index) {
   return layer;
 }
 
-let layerNodeLimit = 1;
+let layerNodeLimit = 80;
 let layerNodeCount = 0;
 let layer = new Konva.Layer();
 
-for (let i = 0; i < 2; i++) {
+for (let i = 0; i < 1000; i++) {
   layerNodeCount++;
   if (layerNodeCount >= layerNodeLimit) {
     layerNodeCount = 0;
